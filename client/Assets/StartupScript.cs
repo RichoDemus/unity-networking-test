@@ -15,7 +15,7 @@ public class StartupScript : MonoBehaviour {
 		Debug.Log("Start");
 	    //var url = "http://localhost:8080/hello-world";
 	    //var url = "https://richodemus.com/index.html";
-	    var url = "https://google.com";
+	    var url = "http://localhost:8080/api/hello-world?name=richo";
 
 		var form = new WWWForm();
 		form.AddField("key", "val");

@@ -5,7 +5,9 @@ repositories {
 }
 
 dependencies {
-    compile 'org.slf4j:slf4j-api:1.7.18'
+    compile 'org.slf4j:slf4j-api:1.7.20'
+    compile 'io.dropwizard:dropwizard-core:0.9.2'
+    compile 'io.dropwizard:dropwizard-assets:0.9.2'
 
     testCompile 'junit:junit:4.12'
 }
